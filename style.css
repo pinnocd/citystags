@@ -1,0 +1,248 @@
+/* sports BASKETBALL */
+
+body {
+	font:12px verdana, arial;
+	color: #eadebf;
+	min-width: 750px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #38210c;
+	border: 0;
+}
+
+/*
+ * Container surrounding all content on the page
+ */
+.fw-container {
+	margin: 0 auto;
+	padding: 0;
+	width: 750px;
+	background: #9e673a;
+}
+
+a,
+a:visited {
+	color:#f7a745;
+	text-decoration: none;
+}
+
+a:hover,
+a:visited:hover {
+	text-decoration: underline;
+}
+
+code, pre {
+	font-size:12px
+}
+
+fieldset {
+	margin:1em 0;
+	padding:1em;
+	border:1px solid #CCC
+}
+
+legend {
+	color:#000;
+	font-weight:bold;
+}
+
+label {
+	cursor:pointer
+}
+
+
+/*
+ * Container surrounding Site Title, Small Title, Logo, and home-link
+ */
+.fw-head {
+	height: 214px;
+	margin:0;
+	border:0px none;
+	background: url('images/bg-head.jpg') no-repeat top left;
+
+}
+
+/*
+ * Site Title
+ */
+.fw-head h1 {
+	font:bold 26px arial;
+	color: #fff;
+	width: 350px;
+	margin: 0px 0px 0px 26px;
+	padding: 24px 0px 0px 0px;
+	text-align: left;
+	overflow: hidden;
+}
+
+/*
+ * Site Small Title
+ */
+.fw-head h3 {
+	font:bold 13px arial;
+	color: #fff;
+	width: 350px;
+	margin: 10px 0px 0px 26px;
+	text-align: left;
+
+}
+
+.fw-logo {
+	width:0px;
+	height:0px;
+	display:none;
+}
+
+.fw-home-link {
+	width:0px;
+	height:0px;
+	display:none;
+}
+
+hr {
+	display:none;
+}
+
+/*
+ * NavBar
+ * UL containing all the NavBar links
+ */
+ 
+.fw-nav-menu {
+	background: #38210c;
+	padding: 10px 26px 10px 26px;
+	font-family: arial;
+	font-weight: bold;
+	color: #f7a745;
+}
+
+.fw-nav-menu ul {
+	margin:0px;
+	padding:0px;
+	background: transparent;
+	list-style:none;
+	text-align:center;
+	cursor:default;
+
+}
+
+/*
+ * Individual NavBar LI's
+ */
+.fw-nav-menu li {
+	margin:0px 15px 0px 0px;
+	display: inline;
+}
+
+/*
+ * Individual NavBar links
+ */
+.fw-nav-menu a {
+	text-decoration:none;
+}
+
+/*
+ * This is the container that holds the main content (paragraphs) of the page.
+ */
+.fw-with-mini {
+	float:left;
+	width: 70%;
+	margin: 0px 0px 0px 0px;
+	padding-top: 15px;
+	font-size: 12px;
+	overflow: hidden;
+	background: #9e673a url('images/bg-content.gif') no-repeat top left; 
+}
+
+/*
+ * The fw-no-mini class is applied to the fw-content DIV
+ *     when there are no mini-paragraphs on the page.
+ * This statement must remain in the css even if there are mini paragraphs.
+ * If there are mini paragraphs on the page, this will be ignored.
+ */
+.fw-content {
+	float:none;
+	width:100%;
+}
+
+.fw-content h2 {
+	font:bold 20px arial;
+	color: #f7a745;
+	margin: 0px 0px 10px 0px;
+	padding-top: 15px;
+}
+
+.fw-paragraph {
+	margin: 0px 26px 0px 26px;
+	clear: both;
+}
+
+.fw-text {
+	margin: 0px 0px 0px 0px;
+	height: 100%;
+}
+
+.fw-content ul, .fw-content ol, .fw-content dd {
+	margin-left:2em;
+}
+
+.fw-mini-pars {
+	float:right;
+	width:30%;
+}
+
+.fw-mini-pars dt {
+	color:#000;
+	font-weight:bold;
+	margin-top:1em;
+	border-bottom:.3em solid #EEE;
+}
+
+.fw-mini-pars dd {
+	margin-top:.2em;
+	color:#333;
+}
+
+.fw-footer {
+	font-size: 10px;
+	font-family: verdana, sans-serif;
+	background: #8b5a33;
+	margin: 15px 0px 0px 0px;
+	padding: 6px 0px 6px 26px;
+	clear: both;
+	
+}
+
+.fw-footer p {
+	padding: 0px 0px 0px 0px;
+	margin: 0px
+}
+
+.fw-tracker {
+	margin: 0px 0px 0px 26px;
+	padding: 10px 0px 15px 0px;
+	font-size: 11px;
+	font-family: verdana, sans-serif;
+	clear: both;
+}
+
+/* forms */
+
+label, button, input[type="submit"] {
+	cursor:pointer;
+}
+
+input, textarea {
+	padding:.1em;
+	background:#FFF;
+	border:1px solid #666666;
+}
+
+textarea {
+	font:1em tahoma,verdana,arial,sans-serif;
+}
+
+.formSpan {
+	display:block;
+	margin:1em 0 0
+}
